@@ -50,3 +50,7 @@ For the differences in the output check *Files/diff/<test number>*
 
 All of the python code used is attached so do what ever you want with it, to simply just make new tests use ```./new.sh``` , but be warned it takes a lot of time so you should 
 change the values before hand in the generate python scripts.
+
+file *generate_tests.py* holds two variables - test count & the number of lines used
+
+file *input_generate.py* determines the range of values for ids and money

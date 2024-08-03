@@ -15,6 +15,30 @@ class Fleet:
     @id.setter
     def id(self, value):
         self._id = value
+        
+    @property
+    def pirates(self):
+        return self._pirates
+
+    @pirates.setter
+    def pirates(self, value):
+        self._pirates = value
+        
+    @property
+    def live(self):
+        return self._live
+
+    @live.setter
+    def live(self, value):
+        self._live = value
+
+    @property
+    def ship_count(self):
+        return self._ship_count
+
+    @ship_count.setter
+    def ship_count(self, value):
+        self._ship_count = value
 
     def add_pirate(self, pirate):
         self.pirates.append(pirate)
@@ -138,7 +162,7 @@ class Ocean:
             return StatusType.INVALID_INPUT
         fleet1 = find_fleet(self.fleets, fleetId1)
         fleet2 = find_fleet(self.fleets, fleetId2)
-        if fleet1 == StatusType.FAILURE or fleet2 == StatusType.FAILURE:
+        if fleet1 == StatusType.FAILURE or fleet2 == StatusType.FAILURE or not fleet1.live or not fleet2.live or len(fleet1.pirates) == 0 or len(fleet2.pirates) == 0:
             return StatusType.FAILURE
         if not fleet1.live or not fleet2.live:
             return StatusType.FAILURE
@@ -183,3 +207,4 @@ class Ocean:
 def main(input_file, output_file):
     ocean = Ocean()
     run_file(input_file, output_file, ocean)
+
