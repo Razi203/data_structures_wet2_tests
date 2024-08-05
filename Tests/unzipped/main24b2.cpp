@@ -46,6 +46,9 @@ int main()
         } else if (!op.compare("get_pirate_money")) {
             cin >> d1;
             print(op, obj->get_pirate_money(d1));
+        } else if (!op.compare("get_pirate_rank")) {
+            cin >> d1;
+            print(op, obj->get_pirate_rank(d1));
         } else if (!op.compare("unite_fleets")) {
             cin >> d1 >> d2;
             print(op, obj->unite_fleets(d1, d2));
