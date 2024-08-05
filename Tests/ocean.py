@@ -156,6 +156,14 @@ class Ocean:
         if pirate == StatusType.FAILURE:
             return output_t(StatusType.FAILURE)
         return output_t(StatusType.SUCCESS, pirate.money)
+    
+    def get_pirate_rank(self, pirateId):
+        if pirateId <= 0:
+            return output_t(StatusType.INVALID_INPUT)
+        pirate = find_pirate_in_ocean(self, pirateId)
+        if pirate == StatusType.FAILURE:
+            return output_t(StatusType.FAILURE)
+        return output_t(StatusType.SUCCESS, pirate.rank)
 
     def unite_fleets(self, fleetId1, fleetId2):
         if fleetId1 <= 0 or fleetId2 <= 0 or fleetId1 == fleetId2:

@@ -1,0 +1,200 @@
+add_fleet 137
+add_pirate 164 137
+add_pirate 809 137
+add_fleet 582
+add_fleet 268
+add_pirate 377 268
+add_pirate 396 582
+add_pirate 958 268
+add_fleet 101
+add_fleet 390
+add_pirate 360 582
+add_pirate 278 268
+add_fleet 799
+add_fleet 774
+add_pirate 206 799
+add_fleet 487
+add_fleet 251
+add_fleet 218
+add_pirate 320 218
+add_fleet 178
+add_fleet 604
+add_pirate 868 582
+add_fleet 949
+add_fleet 574
+add_pirate 234 268
+num_ships_for_fleet 351
+pirate_argument 809 164
+pirate_argument 278 377
+get_pirate_money 320
+add_pirate 320 834
+pay_pirate 278 25
+num_ships_for_fleet 949
+unite_fleets 268 799
+unite_fleets 268 137
+get_pirate_money 377
+unite_fleets 582 43
+pirate_argument 396 360
+num_ships_for_fleet 101
+add_fleet 251
+pay_pirate 164 215
+add_pirate 809 292
+unite_fleets 582 218
+add_pirate 551 178
+add_fleet -77
+num_ships_for_fleet 487
+num_ships_for_fleet 693
+pirate_argument 424 234
+pay_pirate 809 19
+num_ships_for_fleet 251
+get_pirate_money 206
+pirate_argument 377 278
+pay_pirate 111 23
+pirate_argument 958 234
+add_fleet 207
+pirate_argument 65 65
+pirate_argument 396 320
+get_pirate_money -59
+get_pirate_money 14
+get_pirate_money 396
+pirate_argument 831 -61
+get_pirate_money -168
+add_pirate 474 949
+unite_fleets 178 582
+get_pirate_money 206
+get_pirate_money 164
+add_pirate 824 251
+get_pirate_money -14
+unite_fleets 949 582
+unite_fleets 268 251
+add_pirate 215 574
+num_ships_for_fleet 390
+add_pirate 718 574
+pay_pirate 319 376
+add_pirate 571 487
+add_fleet 105
+num_ships_for_fleet 105
+unite_fleets 105 268
+pay_pirate 278 469
+pay_pirate 666 706
+pay_pirate 868 43
+unite_fleets 268 574
+add_pirate 62 105
+pay_pirate 206 605
+get_pirate_money 718
+pay_pirate 215 893
+get_pirate_money 358
+unite_fleets 268 105
+get_pirate_money 215
+add_pirate 565 390
+pirate_argument 958 718
+get_pirate_money 690
+num_ships_for_fleet 207
+unite_fleets 268 582
+pirate_argument 809 551
+unite_fleets 487 390
+add_fleet 767
+get_pirate_money 474
+pirate_argument 234 565
+pay_pirate 571 958
+add_pirate 422 207
+add_fleet 799
+pay_pirate 581 829
+unite_fleets 215 786
+add_pirate 293 268
+unite_fleets 268 166
+num_ships_for_fleet 268
+get_pirate_money -5
+get_pirate_money 809
+unite_fleets 487 268
+add_fleet 949
+unite_fleets 207 268
+add_pirate 883 101
+add_fleet 879
+pirate_argument 293 396
+get_pirate_money 356
+add_fleet 111
+get_pirate_money -69
+unite_fleets 268 101
+pirate_argument 348 474
+num_ships_for_fleet 268
+pirate_argument 551 422
+unite_fleets 268 111
+num_ships_for_fleet -59
+add_fleet 582
+pay_pirate 451 376
+num_ships_for_fleet 543
+pirate_argument 718 62
+num_ships_for_fleet 58
+add_fleet 767
+num_ships_for_fleet 604
+add_pirate 358 497
+unite_fleets 774 111
+add_pirate 16 767
+get_pirate_money 718
+pay_pirate -92 240
+pirate_argument 62 278
+add_fleet 582
+get_pirate_money 16
+add_fleet 514
+num_ships_for_fleet 879
+pay_pirate 377 189
+pirate_argument -95 878
+num_ships_for_fleet 934
+add_pirate 89 268
+unite_fleets 879 604
+get_pirate_money 278
+pirate_argument 718 215
+unite_fleets 767 268
+unite_fleets 268 774
+pay_pirate 868 526
+add_pirate 399 514
+pirate_argument 377 551
+add_pirate 399 629
+get_pirate_money 718
+pay_pirate 16 960
+pirate_argument 883 16
+pirate_argument 536 354
+unite_fleets 268 514
+add_pirate 824 150
+add_pirate 399 932
+get_pirate_money 706
+add_pirate 143 879
+get_pirate_money 293
+unite_fleets 268 879
+pirate_argument -192 785
+num_ships_for_fleet 268
+get_pirate_money 620
+add_pirate 809 444
+pay_pirate 565 949
+add_fleet -60
+add_fleet 158
+add_pirate 868 455
+num_ships_for_fleet 158
+unite_fleets 827 268
+num_ships_for_fleet 149
+num_ships_for_fleet -26
+get_pirate_money -184
+unite_fleets -177 -121
+add_pirate 535 628
+num_ships_for_fleet -71
+get_pirate_money -40
+pay_pirate 200 -85
+get_pirate_money 958
+pay_pirate 683 -182
+pay_pirate 551 995
+num_ships_for_fleet -104
+pay_pirate -137 -150
+unite_fleets 268 261
+get_pirate_money 143
+pirate_argument 114 89
+add_pirate -166 -67
+unite_fleets -180 -180
+unite_fleets -160 -187
+add_pirate 668 268
+unite_fleets 411 268
+num_ships_for_fleet 284
+unite_fleets -33 477
+get_pirate_money 565
+add_pirate 668 444
+add_pirate 304 604
