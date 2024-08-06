@@ -47,6 +47,8 @@ def run_file(input_file, output_file, ocean):
                         run(ocean.pay_pirate, int(command[1]), int(command[2]))
                     elif command[0] == "get_pirate_money" and len(command) == 2:
                         run(ocean.get_pirate_money, int(command[1]))
+                    elif command[0] == "get_pirate_rank" and len(command) == 2:
+                        run(ocean.get_pirate_rank, int(command[1]))
                     elif command[0] == "unite_fleets" and len(command) == 3:
                         run(ocean.unite_fleets, int(command[1]), int(command[2]))
                     elif command[0] == "pirate_argument" and len(command) == 3:
