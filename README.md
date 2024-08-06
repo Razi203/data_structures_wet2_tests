@@ -1,62 +1,62 @@
-# data_structures_wet2_tests
-Tests For Data Structures Wet Homework 2 - Spring 2024
+# Data Structures Wet2 Tests
+Tests for Data Structures Wet Homework 2 - Spring 2024
 
-These Tests were made with <3 - jk you're on your own I'm not fixing any issues unless some test is wrong!
+The test suite is designed to help you verify the correctness of your zip file before submission. This way you ensure that your file works as expected and that no files are missing or mixed up at submission!
 
-## Your not so Friendly Guide For Testing
+**###### FOR TESTS TO VERIFY YOUR PIRATE RANK, VISIT: [Eilon's Tests (including custom rank testing)](https://github.com/eilon-code/data_structures_wet2_tests) ######**
 
-All of the tests were randomly generated!
+These tests were created with ❤️ - Just kidding! You’re on your own unless there’s an error in the tests themselves!
 
-If you notice any mistakes send me a message / open an issue in github or you can make pull request.
+## Your Not-So-Friendly Guide for Testing
+
+All tests were randomly generated! If you notice any mistakes, feel free to message me, open an issue on GitHub, or make a pull request.
 
 Good Luck!
 
-## steps
+## Steps
 
-0. Make sure you are in the Tests directory in your terminal!
+0. Ensure you are in the Tests directory in your terminal.
 
-1. Move/Copy your *zip file* to inside the Tests folder (your file should be in the same directory as all of the supplied files and folders).
+1. Move or copy your *zip file* into the Tests folder. Your file should be in the same directory as all the supplied files and folders.
 
-**_Note:_ the \<zip file\> refers to the one you want to submit (containing your dry and all) meaning that you don't have to attach "wet2util.h" or "main24b2.cpp". A copy
-of wet-verify.py is attached if you want to test your zip file too!** 
- 
+**Note:** The \<zip file\> refers to the one you want to submit (containing your dry and all). You do not need to attach "wet2util.h" or "main24b2.cpp". A copy of wet-verify.py is included if you want to test your zip file too!
+
     ```
     Tests/
-    |__Files/
-    |__Unzipped/
-    .
-    .
-    .
-    |__compile.sh
-    |__new.sh
-    |__run.sh
-    |__<your zip file>
+    ├── Files/
+    ├── Unzipped/
+    ├── compile.sh
+    ├── new.sh
+    ├── run.sh
+    └── <your zip file>
     ```
 
-3. use chmod to gain access to .sh files: ```chmod +x compile.sh new.sh run.sh```
+2. Use `chmod` to gain access to the .sh files: `chmod +x compile.sh new.sh run.sh`
 
-common bug - "You don't have access to a.out" to fix run ```chmod +x a.out```
+    **Common bugs**:
+- If you encounter "You don't have access to a.out", fix it by running `chmod +x a.out`
+- If you encounter "unzip/zip errors", fix it by running `sudo apt install zip unzip`
 
-4. run [compile.sh](compile.sh) each time you change your zip folder, you only need to do it once if not changed. using ``` ./compile.sh <your zip file>``` 
+4. Run [compile.sh](compile.sh) each time you change your zip folder. You only need to do this once if no changes are made. Use `./compile.sh <your zip file>`
 
-5. run the tests using ```./run.sh```
+5. Run the tests using `./run.sh`
 
 ## Results
 
-The tests check for Time, Output matching, Memory Leaks. 
+The tests check for:
+- Time
+- Output matching
+- Memory Leaks
 
-Each one is displayed whether faild or not and the number of failed tests will be printed at the end!
+Each result will be displayed as passed or failed, and the total number of failed tests will be printed at the end.
 
-For the tests failed check the file *tests_failed.txt*
+For details on failed tests, check the file *tests_failed.txt*.
 
-For the differences in the output check *Files/diff/<test number>* 
-
+For differences in the output, check *Files/diff/\<test number\>*.
 
 ## Generating More Tests
 
-All of the python code used is attached so do what ever you want with it, to simply just make new tests use ```./new.sh``` , but be warned it takes a lot of time so you should 
-change the values before hand in the generate python scripts.
+All the Python code used for test generation is included. You can create new tests using `./new.sh`. However, note that this process can be time-consuming, so you may want to adjust the values in the generation scripts beforehand.
 
-file *generate_tests.py* holds two variables - test count & the number of lines used
-
-file *input_generate.py* determines the range of values for ids and money
+- The file *generate_tests.py* holds two variables: test count and the number of lines used.
+- The file *input_generate.py* determines the range of values for IDs and money.
