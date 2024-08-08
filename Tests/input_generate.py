@@ -92,11 +92,12 @@ class command:
 
 
 def generate(length=100):
+    ratio = 5
     command()
     command.reset()
     string = ""
-    for j in range(4):
-        for i in range(length // 5):
+    for j in range(ratio):
+        for i in range(length // ratio):
             string += command.generate() + "\n"
         command.sizeup_fleet()
         command.sizeup_pirate()
